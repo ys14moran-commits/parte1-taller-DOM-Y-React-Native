@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f3f5;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Tarjeta principal */
+.tarjeta {
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Título principal */
+h1 {
+    color: #252a34;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Subtítulo */
+.subtitulo {
+    color: #687080;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Contenedor del contador */
+.contador-contenedor {
+    margin: 20px 0;
+}
+
+/* Número de likes */
+#contador {
+    display: block;
+    color: #2563eb;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+/* Texto debajo del contador */
+.contador-contenedor p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* Botón de Me gusta */
+#btn-like {
+    background-color: #16a34a;
+    color: white;
+
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 0 #12813b;
+}
+
+/* Efecto al pasar el mouse */
+#btn-like:hover {
+    background-color: #15803d;
+}
+
+
+/* Contenedor de la tabla */
+.registros {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.registros h2 {
+    font-size: 18px;
+    color: #252a34;
+}
+
+/* Diseño de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Encabezados y celdas */
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Encabezados */
+th {
+    background-color: #f8fafc;
+    color: #374151;
+}
